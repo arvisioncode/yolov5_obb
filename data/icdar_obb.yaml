@@ -7,11 +7,8 @@ val: icdar_obb/train/images #images  # val images (relative to 'path')
 test: icdar_obb/val/images  #images # test images (optional)
 
 # Classes
-nc: 17  # number of classes
-names: ['text', 'plane', 'baseball-diamond', 'bridge', 'ground-track-field', 'small-vehicle', 
-        'large-vehicle', 'ship', 'tennis-court', 'basketball-court', 'storage-tank',  
-        'soccer-ball-field', 'roundabout', 'harbor', 'swimming-pool', 'helicopter', 
-        'container-crane']  # class names
+nc: 2  # number of classes
+names: ['text', 'none']  # class names
 
 
 # Download script/URL (optional)
