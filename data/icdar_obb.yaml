@@ -2,9 +2,9 @@
 
 # Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
 path: ./dataset # dataset root dir
-train: icdar_obb_v2/train/images #images   # train images (relative to 'path') 
-val: icdar_obb_v2/val/images #images  # val images (relative to 'path') 
-test: icdar_obb_v2/test/images  #images # test images (optional)
+train: icdar_obb/train/images #images   # train images (relative to 'path') 
+val: icdar_obb/val/images #images  # val images (relative to 'path') 
+# test: icdar_obb/test/images  #images # test images (optional)
 
 # Classes
 nc: 2  # number of classes

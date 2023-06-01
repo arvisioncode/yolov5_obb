@@ -4,7 +4,8 @@
 
 # TRAIN
 
-python train.py --weights yolov5s.pt --data 'data/icdar_obb.yaml' --hyp 'data/hyps/obb/hyp.finetune_dota.yaml' --epochs 600 --batch-size 8 --img 1024 --device 0
+python train.py --weights yolov5x.pt --data 'data/icdar_obb_v2.yaml' --hyp 'data/hyps/obb/hyp.finetune_dota.yaml' --epochs 300 --batch-size 8 --img 1024 --device 0
+
 
 # INFERENCE
 
